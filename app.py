@@ -31,10 +31,7 @@ def images(update,context):
     context.bot.send_photo(chat_id=update.effective_chat.id, photo = 'https://1.bp.blogspot.com/-q79uC26Cous/XovFGGoMUoI/AAAAAAAAWEs/aVpq-5qhd5AXvYxn5vkvJsZRXWR46M4PQCLcBGAsYHQ/s1600/LASC_Valores%2BScrum_Gazafatonario.png')
 
 def main():
-    """Start the bot."""
-    # Create the Updater and pass it your bot's token.
-    # Make sure to set use_context=True to use the new context based callbacks
-    # Post version 12 this will no longer be necessary
+ 
     updater = Updater("Token", use_context=True)
 
     # Get the dispatcher to register handlers
